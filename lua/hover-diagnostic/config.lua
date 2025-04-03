@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup()
-  require("diagnostics-helper").setup()
+  require("hover-diagnostic").setup()
 end
 
 return M
