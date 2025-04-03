@@ -6,6 +6,17 @@ A Neovim plugin that enhances the default diagnostics experience with features l
 - **Copy diagnostics to clipboard** with convenient key mappings
 - **Formatted diagnostic messages** with severity levels and line numbers for better readability
 
+## Why
+Virtual text in NeoVim can get very long, and it also doesn't wrap around the terminal, so often times you'll get text that runs off of the screen, especially on laptops
+With this plugin you'll be able to read the diagnostic warning, and copy it to your clipboard
+
+## What
+From This:
+<img width="574" alt="Screenshot 2025-04-03 at 3 15 41 PM" src="https://github.com/user-attachments/assets/b9e94638-dddb-44e7-996b-cda1d1f383ad" />
+
+To This:
+<img width="754" alt="Screenshot 2025-04-03 at 3 14 29 PM" src="https://github.com/user-attachments/assets/8feaf1c0-429a-4c5b-b11e-1c9520a816d7" />
+
 ## Installation
 
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
