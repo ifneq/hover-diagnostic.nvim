@@ -12,7 +12,7 @@ A Neovim plugin that enhances the default diagnostics experience with features l
 
 ```lua
 {
-  "yourusername/diagnostics-helper.nvim",
+  "ifneq/hover-diagnostic.nvim",
   event = { "BufReadPost", "BufNewFile" },
   opts = {
     -- Optional custom configuration
@@ -24,7 +24,7 @@ A Neovim plugin that enhances the default diagnostics experience with features l
 
 ```lua
 use {
-  "yourusername/diagnostics-helper.nvim",
+  "ifneq/hover-diagnostic.nvim",
   config = function()
     require("diagnostics-helper").setup({
       -- Optional custom configuration
