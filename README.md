@@ -17,6 +17,16 @@ From This:
 To This:
 <img width="754" alt="Screenshot 2025-04-03 at 3 14 29 PM" src="https://github.com/user-attachments/assets/8feaf1c0-429a-4c5b-b11e-1c9520a816d7" />
 
+Note: Use this to fully disable virtual text from your lsp-config
+```lua
+  {
+    "neovim/nvim-lspconfig",
+    opts = function(_, opts)
+      opts.diagnostics.virtual_text = false;
+    end,
+  },
+```
+
 ## Installation
 
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
